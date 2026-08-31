@@ -1,0 +1,21 @@
+# Power BI temporary / backup files
+~$*.pbix
+*.pbix.bak
+*.tmp
+.pbi/localSettings.json
+
+# Windows / macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python / notebooks (caso sejam adicionados posteriormente)
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
